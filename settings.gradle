@@ -1,0 +1,1 @@
+include ':app', ':CommonSDK', ':commonlib', ':CommonRes', ':mobilertc', ':CommonService'

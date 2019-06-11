@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/public_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/public_dp_45"
+    android:fitsSystemWindows="true"
+    android:gravity="center_vertical"
+    app:contentInsetStart="@dimen/public_dp_0">
+
+
+    <ImageView
+        android:id="@+id/public_toolbar_back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/public_dp_15"
+        android:paddingRight="@dimen/public_dp_15"
+        android:scaleType="center"
+        android:src="@mipmap/public_backarrow" />
+
+    <TextView
+        android:id="@+id/public_toolbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxEms="10"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@color/public_white"
+        android:textSize="@dimen/public_sp_18"
+        android:textStyle="bold"
+        tools:text="标题" />
+
+    <TextView
+        android:id="@+id/public_toolbar_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:paddingLeft="@dimen/public_dp_15"
+        android:paddingRight="@dimen/public_dp_15"
+        android:textColor="@color/public_white"
+        android:textSize="@dimen/public_sp_15"
+        tools:text="编辑" />
+
+
+</androidx.appcompat.widget.Toolbar>
